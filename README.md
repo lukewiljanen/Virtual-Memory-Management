@@ -1,4 +1,12 @@
 # Virtual Memory Management
+This project implements a fully functional Virtual Memory Management (VMM) system that simulates how an operating system translates logical addresses into physical memory addresses using a TLB, page table, backing store, and page replacement algorithms. It processes a stream of 16‑bit logical addresses, resolves each one through the VM pipeline, and logs every translation to a CSV file for analysis.
+At its core, the system models the essential components of a real OS memory subsystem:
+- Translation Lookaside Buffer (TLB) with LRU or Random replacement
+- Page Table with per‑page metadata and LRU tracking
+- Physical Memory with configurable frame count
+- Backing Store that simulates disk access on page faults
+- Page Replacement Policies: FIFO, LRU, Random
+- Detailed CSV logging of every translated address
 
 **Name:** Luke Wiljanen
 
