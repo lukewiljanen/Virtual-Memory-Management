@@ -2,7 +2,7 @@
 
 **Name:** Luke Wiljanen
 
-All csv files uploaded in this submission were the results of 128 frames, and random workloads (addresses.txt)
+All csv files are the results of 128 frames, and random workloads (addresses.txt)
 
 # Workload Experiments
 
